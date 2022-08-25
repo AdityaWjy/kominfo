@@ -1,0 +1,70 @@
+body {
+  font-family: system-ui;
+  background: #07a1ef;
+  background-image: url("Johnny.gif");
+  background-position: absolute;
+  color: white;
+  text-align: center;
+}
+h2 {font-size:40px;font-style:italic;}
+
+button{width:300px;background-color:gold;}
+a{color:black;}
+   
+    
+ul{
+  font-size:16px;
+    border:6px ridge black;
+    padding: rem;
+   align-self:center;
+   justify-self:center;
+    width:150px;
+    height:160px;
+    text-align: left;
+}
+
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.warning {
+  
+  border:10px ridge purple;
+  background-color: pink;
+  padding: .5rem;
+  align-self:center;
+  justify-self:center;
+  justify-content:center;
+  width:400px;
+}
+.warning cat{font-size:20px;}
+
+.warning p {
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: center;
+}
+
+section {
+  border: 10px ridge black;
+  display: flex;
+  align-items: center;
+  background: beige;
+  align-self:center;
+  justify-self:center;
+  width:150px;height:160px;
+}
+
+box {
+  height: 60px;
+  background: rgb(0, 0, 0);
+  margin: 5px;
+  
+}
+
+box:nth-child(3) {
+  align-self: flex-end;
+  background: pink;
+}
